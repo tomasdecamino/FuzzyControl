@@ -4,8 +4,17 @@ Librería para control difuso.  Está hecha en C, y define los conjuntos difusos
 
 ##Estructuras de Datos
 
-'''
+```
 fuzzyDef
-'''  
+```
+Estructura para la definici'on de un conjunto difuso. Contiene:
 
-Es
+```
+  float mina
+  float minb
+  float maxa
+  float maxb
+  float centroid
+  float (*membership)(fuzzyDef, float)
+  float miu
+```
