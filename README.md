@@ -7,7 +7,7 @@ Esta es una librería de estructuras de datos y funciones para la construcción 
 - FuzzyDef para definir conjuntos difusos con su respectiva función de membresía
 - fuzyDomain  para encapsular todo el dominio de conjuntos difusos para el dominio de discurso
 
-##funciones y métodos
+##Funciones y Métodos
 
 - setDomain:  permite construir un domino completo de conjuntos difusos usanfo dfunciones monotonicas de triángulo
 
