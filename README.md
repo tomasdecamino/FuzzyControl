@@ -4,4 +4,8 @@ Librería para control difuso.  Está hecha en C, y define los conjuntos difusos
 
 ##Estructuras de Datos
 
-'''fuzzyDef'''  Es
+'''
+fuzzyDef
+'''  
+
+Es
