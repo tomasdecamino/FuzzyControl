@@ -1,4 +1,4 @@
-# FuzzyControl
+# FuzzyControl para Arduino
 
 Esta es una librería de estructuras de datos y funciones para la construcción de conjuntos difusos, y la aplicacón de control difuso en placas de desarrollo como Arduino y Feather de Adafruit.
 
