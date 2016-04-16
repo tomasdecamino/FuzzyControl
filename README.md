@@ -4,7 +4,7 @@ Esta es una librería de estructuras de datos y funciones para la construcción 
 
 Algunas definiciones para entender las estructuras y funciones.
 
-La librería está programada utilizando regitros y operaciones sobre esas estructuras de datos.  La librería perfectamente podría programarse utilizando objetos, pero fue construida de esta manera para enseñanza. Un registro es una colección de campos, y en C se construyen con struct.
+La librería está programada utilizando regitros y operaciones sobre esas estructuras de datos.  La librería perfectamente podría programarse utilizando objetos, pero fue construida de esta manera para enseñanza. Un registro es una colección de campos, y en C se construyen con struct. Se utilizó struct pues la estrucutra de conjuntos no pretende implementar métodos y herencia como tal.  Se utiliza un puntero a función para asociar una función de membresía a cada estructura de conjunto difuso.
 
 ##Estructuras de Datos
 
