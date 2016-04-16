@@ -20,7 +20,7 @@ La librería está programada utilizando regitros y operaciones sobre esas estru
 
 ##Utilización
 
-###declaracion de variables y definicióon de conjuntos difusos
+###declaracion de variables y definición de conjuntos difusos
 
 ###cálculo de grados de membresía
 
