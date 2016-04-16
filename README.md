@@ -1,20 +1,15 @@
 # FuzzyControl
 
-Librería para control difuso.  Está hecha en C, y define los conjuntos difusos utilizando objetos struct àra simplificar el código, y no estrictamente C++.  Funciona bien en Arduino UNO, y corre bastante rápido.
+Esta es una librería de estructuras de datos y funciones para la construcción de conjuntos difusos, y la aplicacón de control difuso en placas de desarrollo como Arduino y Feather de Adafruit.
 
 ##Estructuras de Datos
 
-```
-fuzzyDef
-```
-Estructura para la definici'on de un conjunto difuso. Contiene:
+-FuzzyDef para definir conjuntos difusos con su respectiva función de membresía
+-fuzyDomain  para encapsular todo el dominio de conjuntos difusos para el dominio de discurso
 
-```
-  float mina
-  float minb
-  float maxa
-  float maxb
-  float centroid
-  float (*membership)(fuzzyDef, float)
-  float miu
-```
+##funciones y métodos
+
+-setDomain:  permite construir un domino completo de conjuntos difusos usanfo dfunciones monotonicas de triángulo
+
+
+
