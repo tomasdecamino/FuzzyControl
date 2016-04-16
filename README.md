@@ -6,6 +6,9 @@ Algunas definiciones para entender las estructuras y funciones
 
 ##Estructuras de Datos
 
+| Data Type | definición |
+|-----------|------------|
+
 - FuzzyDef para definir conjuntos difusos con su respectiva función de membresía
 - fuzyDomain  para encapsular todo el dominio de conjuntos difusos para el dominio de discurso
 
