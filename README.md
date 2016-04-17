@@ -55,7 +55,7 @@ void setup(){
 Al final cada conjunto difuso se puede accesar con,
 
 ```C
-  miConjunto.fset[i]; // con 0 <= i < miDominio.nset=3
+  miDominio.fset[i]; // con 0 <= i < miDominio.nset
 ```
 
 ###Creación de más funciones de membresía
