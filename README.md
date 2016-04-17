@@ -12,7 +12,7 @@ La librería está programada utilizando regitros y operaciones sobre esas estru
 - FuzzyDef para definir conjuntos difusos con su respectiva función de membresía.
 - fuzyDomain  para encapsular todo el dominio de conjuntos difusos para el dominio de discurso
 
-##Funciones y Métodos (importantes)
+##Funciones (importantes)
 
 - setDomain:  permite construir un domino completo de conjuntos difusos usanfo dfunciones monotonicas de triángulo
 - resetDomain: resetea los valores de mebresía a 0
@@ -33,3 +33,9 @@ La librería está programada utilizando regitros y operaciones sobre esas estru
 ###construcción de reglas de inferencia
 
 ###Defusificación
+
+##Instalación
+
+##Disclaimer
+
+Estamos en el proceso de contruir un buen ejemplo, así que la librería está parcialmente probada, es decir, nada más se ha verificado que las funciones hacen lo que se suponen deben hacer.
