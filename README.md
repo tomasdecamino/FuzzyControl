@@ -9,8 +9,8 @@ La librería está programada utilizando regitros y operaciones sobre esas estru
 ##Estructuras de Datos
 
 
-- FuzzyDef para definir conjuntos difusos con su respectiva función de membresía.
-- fuzyDomain  para encapsular todo el dominio de conjuntos difusos para el dominio de discurso
+- **FuzzyDef** para definir conjuntos difusos con su respectiva función de membresía.
+- **fuzyDomain**  para encapsular todo el dominio de conjuntos difusos para el dominio de discurso
 
 ##Funciones (importantes)
 
