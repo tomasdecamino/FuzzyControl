@@ -82,7 +82,28 @@ Luego se asocia a un conjunto difuso,
 
 ###cálculo de grados de membresía
 
+Para determinar la membresía en un conjunto dado un valos **x**, utilizamos,
+
+```C
+  truthDegree(&miConjunto,x); 
+```
+Esta función retorna el grado de membresía de un elemento con valor **x** en **miConjunto**. Esta función además almacena en miConjunto.miu el grado de membresía.  Se puede utilizar la misma función para la membresía en todo el dominio de discurso,
+```C
+  truthDegree(&miDominio,x); 
+```
+La función almacena en **miu** de cada conjunto del dominio el grado de verdad de pertenencia
+
 ###construcción de reglas de inferencia
+
+La reglas de inferencia se construyen de la siguiente manera
+
+```C
+  if(isMember($miConjunto)){
+    setMiu(&outConjunto, miConjunto.miu);
+  }
+```
+De esa manera se construyen las reglas de inferencia.  Hay más funciones para facilitar la escritura como **isMemberAnd** y **isMemberOr**, pero esa es la estructura básica.
+
 
 ###Defusificación
 
