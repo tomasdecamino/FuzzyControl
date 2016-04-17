@@ -24,7 +24,7 @@ La librería está programada utilizando regitros y operaciones sobre esas estru
 
 ##Utilización
 
-###declaracion de variables y definición de conjuntos difusos
+###Declaracion de variables y definición de conjuntos difusos
 Para declara un conjunto difuso, digmos miConjunto:
 
 ```C
@@ -80,7 +80,7 @@ Luego se asocia a un conjunto difuso,
   miConjunto.membersdip = &miFuncion; 
 ```
 
-###cálculo de grados de membresía
+###Cálculo de grados de membresía
 
 Para determinar la membresía en un conjunto dado un valos **x**, utilizamos,
 
@@ -93,7 +93,7 @@ Esta función retorna el grado de membresía de un elemento con valor **x** en *
 ```
 La función almacena en **miu** de cada conjunto del dominio el grado de verdad de pertenencia
 
-###construcción de reglas de inferencia
+###Construcción de reglas de inferencia
 
 La reglas de inferencia se construyen de la siguiente manera
 
