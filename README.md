@@ -124,7 +124,8 @@ resetDomain(&outDominio);
 3. Determinar grado de verdad de variables de entrada
 4. Aplicar reglas de inferencia
 5. Defuzificar
-6. Resetear dominio de salida
+6. Aplicar a varialbes de control
+7. Resetear dominio de salida
 
 ##Instalación
 
