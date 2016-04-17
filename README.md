@@ -62,9 +62,13 @@ Al final cada conjunto difuso se puede accesar con,
 
 Las funciones de membresía se puede construir con el enunciado de función,
 ```C
-  float increasing(fuzzyDef fset, float x){}
+  float miFuncion(fuzzyDef fset, float x){}
 ```
-En la función se utilizan fset.mina, fset.maxa,fset.minb y fset.minb, para definir los intervalos de validez de la función
+En la función se utilizan fset.mina, fset.maxa,fset.minb y fset.minb, para definir los intervalos de validez de la función. Luego se asocia a un conjunto difuso, 
+
+```C
+  miConjunto.membersdip = &miFuncion; 
+```
 
 ###cálculo de grados de membresía
 
