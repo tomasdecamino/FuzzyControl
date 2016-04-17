@@ -26,6 +26,8 @@ La librería está programada utilizando regitros y operaciones sobre esas estru
 
 ###declaracion de variables y definición de conjuntos difusos
 
+###Creación de más funciones de membresía
+
 ###cálculo de grados de membresía
 
 ###construcción de reglas de inferencia
