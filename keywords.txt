@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map For FuzzyControl
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+fuzzyDef		KEYWORD3
+fuzzyDomain		KEYWORD3
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+truthDegree			KEYWORD2
+setDomain			KEYWORD2
+resetDomain			KEYWORD2
+setCentroid			KEYWORD2
+setMiu				KEYWORD2
+isMemberOr			KEYWORD2
+isMemberAnd			KEYWORD2
+isMember			KEYWORD2
+weightedAverage			KEYWORD2
+
