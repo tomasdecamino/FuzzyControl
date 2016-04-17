@@ -60,6 +60,12 @@ Al final cada conjunto difuso se puede accesar con,
 
 ###Creación de más funciones de membresía
 
+Las funciones de membresía se puede construir con el enunciado de función,
+```C
+  float increasing(fuzzyDef fset, float x){}
+```
+En la función se utilizan fset.mina, fset.maxa,fset.minb y fset.minb, para definir los intervalos de validez de la función
+
 ###cálculo de grados de membresía
 
 ###construcción de reglas de inferencia
