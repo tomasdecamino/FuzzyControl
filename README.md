@@ -64,7 +64,17 @@ Las funciones de membresía se puede construir con el enunciado de función,
 ```C
   float miFuncion(fuzzyDef fset, float x){}
 ```
-En la función se utilizan fset.mina, fset.maxa,fset.minb y fset.minb, para definir los intervalos de validez de la función. Luego se asocia a un conjunto difuso, 
+En la función se utilizan fset.mina, fset.maxa,fset.minb y fset.minb, para definir los intervalos de validez de la función. Vean por ejemplo la función increasing,
+
+```C
+float increasing(fuzzyDef fset, float x) {
+  if (x < fset.mina)return 0;
+  if (x > fset.maxa)return 1;
+  return (x - fset.mina) / (fset.maxa - fset.mina);
+}
+```
+
+Luego se asocia a un conjunto difuso, 
 
 ```C
   miConjunto.membersdip = &miFuncion; 
