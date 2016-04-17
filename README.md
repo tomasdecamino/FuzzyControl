@@ -34,12 +34,29 @@ Luego en el setup:
 
 ```C
 void setup(){
-  miConjunt.membership = &increasing;
-  miConjunt.mina = 0.5;
-  miConjunt.maxa = 1.5;
+  miConjunto.membership = &increasing;
+  miConjunto.mina = 0.5;
+  miConjunto.maxa = 1.5;
 }
 ```
 miConjunt.membership define funci'on de membres'ia del conjunto. Noten que hay que enviar la referencia con "&". Luego se defininen los intervalos donde la funci'on de mebres'i contruye, en este caso, la funci'on monot'onica creciente.  Del mismo modo se puede definir triangle, decreasing y trapezoid, est'a 'ultima requiere definir mina, maxa, minb y maxb.
+
+Para contruir un dominio con varios conjuntos más rápidamente, se utiliza setDomain. Por ejemplo para crear miDominio,
+
+```C
+fuzzyDef miDominio;
+
+void setup(){
+  miDominio.nset=3; //define el numero de conjuntos
+  miDominio.fser = new fuzzyDef[miDominio.nset]; //prepara 3 conjuntos
+  setDomain(&miDominio, -10,10); //crea tres conjuntos ya con sus funciones de membresia (monotónicas y trianguares)
+}
+```
+Al final cada conjunto difuso se puede accesar con,
+
+```C
+  miConjunto.fset[i]; // con 0 <= i < miDominio.nset=3
+```
 
 ###Creación de más funciones de membresía
 
