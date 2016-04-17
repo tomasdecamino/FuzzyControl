@@ -105,9 +105,30 @@ La reglas de inferencia se construyen de la siguiente manera
 De esa manera se construyen las reglas de inferencia.  Hay más funciones para facilitar la escritura como **isMemberAnd** y **isMemberOr**, pero esa es la estructura básica.
 
 
-###Defusificación
+###Defuzificación
+
+En este momento solo hay una función de defuzificación,
+
+```C
+float val = weightedAverage(&outDominio);
+```
+Retorna el valor de defuzificar con el método de weighted average.  Luego de defuzificar resetear los valores del dominio de salida con:
+
+```C
+resetDomain(&outDominio);
+```
+##Algoritmo
+
+1. Crear dominio con conjuntos difusos, de entrada y salida
+2. Calcular valores de sensores
+3. Determinar grado de verdad de variables de entrada
+4. Aplicar reglas de inferencia
+5. Defuzificar
+6. Resetear dominio de salida
 
 ##Instalación
+
+Seguir instrucciones de intalación de librerías de Arduino.
 
 ##Disclaimer
 
