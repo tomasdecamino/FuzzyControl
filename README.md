@@ -132,4 +132,8 @@ Seguir instrucciones de intalación de librerías de Arduino.
 
 ##Disclaimer
 
-Estamos en el proceso de contruir un buen ejemplo, así que la librería está parcialmente probada, es decir, nada más se ha verificado que las funciones hacen lo que se suponen deben hacer.
+Estoy en el proceso de contruir un buen ejemplo, así que la librería está parcialmente probada, es decir, nada más se ha verificado que las funciones hacen lo que se suponen deben hacer.
+
+Falta por crear más funciones de membresía, y métodos de defuzificación. También falta crear un buen ejemplo de aplicacón.
+
+Prueas preliminares muestran que corre bien en un Arduino UNO.
